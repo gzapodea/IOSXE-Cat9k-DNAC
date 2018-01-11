@@ -61,7 +61,7 @@ def main():
             if len(device_info) == 2:
                 print('The IPv4 address ', ipv4_address, ' is used on this device ', device_info[0], ' interface ', device_info[1])
             else:
-                print('The IPv4 address ', ipv4_address, '  is used on this device ', device_info[0])
+                print('The IPv4 address ', ipv4_address, ' is used on this device ', device_info[0])
         except:
             pass
 
