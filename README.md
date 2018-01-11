@@ -3,7 +3,6 @@ This repo will be used to share sample code that will use IOS XE, Catalyst 9k an
 
 
 **verify_ip_duplicates.py**
-
 This simple script will:
 - This script will:
  - load a file with a configuration to be deployed to a network device
@@ -14,22 +13,18 @@ This simple script will:
 
 
 **dnac-apis.py**
-
 This experimental module includes functions to be used with DNA Center
 
 
 **utils.py**
-
 This module includes common functions to be used by various python modules. They do not belong to any technology or product family.
 
 
 **init.py**
-
 The init module where you will need to enter the values for your environment
 
 
 **configuration_template.txt**
-
 Sample configuration file. Replace this file with the one you would like to check.
 
 
