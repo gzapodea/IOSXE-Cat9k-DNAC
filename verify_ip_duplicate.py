@@ -79,6 +79,9 @@ def main():
         print('\nDeploying the template ', config_file, ' will create IP duplicates')
     else:
         print('\nDeploying the template ', config_file, ' will not create IP duplicates')
+
+    # end of the application run
+
     print('\n\nEnd of Application Run')
 
 
