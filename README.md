@@ -50,8 +50,8 @@ This code will send a power supply recovery notification to a Spark Room with th
 This code will send a fan failure notification to a Spark Room with the name defined in init.py. It will also turn on the LED Blue beacon on the switch that experienced the failure.
 
 
-
 **fan_recovery.py**
 
 This code will send a fan recovered notification to a Spark Room with the name defined in init.py. It will also turn on the LED Blue beacon off the switch that experienced the failure.
+
 

@@ -4,7 +4,7 @@ event manager applet power_supply_failure
  action 11 cli command "guestshell run python /bootflash/PYTHON_CODE/power_supply_failure.py"
 !
 event manager applet power_supply_recovery
- event syslog pattern "%PLATFORM_FEP-1-FRU_PS_SUSTAINED_OVERLOAD_RECOVERY:"
+ event syslog pattern "%PLATFORM_FEP-1-FRU_PS_SIGNAL_OK:"
  action 10 cli command "enable"
  action 11 cli command "guestshell run python /bootflash/PYTHON_CODE/power_supply_recovery.py"
 

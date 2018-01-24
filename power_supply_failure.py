@@ -24,6 +24,7 @@ print("Device hostname: ", device_name)
 spark_apis.post_room_message(SPARK_ROOM, "The device with the " + device_name + " has detected:")
 spark_apis.post_room_message(SPARK_ROOM, syslog_info)
 spark_apis.post_room_message(SPARK_ROOM, "Switch Beacon LED turned ON")
+spark_apis.post_room_message(SPARK_ROOM, "--------------------")
 
 cli("configure terminal\nhw-module beacon on switch 1")
 

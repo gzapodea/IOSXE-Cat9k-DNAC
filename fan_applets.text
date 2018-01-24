@@ -8,4 +8,3 @@ event manager applet fan_recovery
  event syslog pattern "%PLATFORM_THERMAL-6-FRU_FAN_RECOVERY:"
  action 10 cli command "enable"
  action 11 cli command "guestshell run python /bootflash/PYTHON_CODE/fan_recovery.py"
-
