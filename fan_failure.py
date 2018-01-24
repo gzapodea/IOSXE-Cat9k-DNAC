@@ -13,9 +13,10 @@ from urllib3.exceptions import InsecureRequestWarning  # for insecure https warn
 
 urllib3.disable_warnings(InsecureRequestWarning)  # Disable insecure https warnings
 
-syslog_input = cli("show logging | in %PLATFORM_FEP-1-FRU_PS_SIGNAL_FAULTY")
+
+syslog_input = cli("show logging | in %PLATFORM_THERMAL-1-FRU_FAN_FAILURE:")
 syslog_lines = syslog_input.split("\n")
-lines_no = len(syslog_lines) - 2
+lines_no = len(syslog_lines)-2
 syslog_info = syslog_lines[lines_no]
 
 device_name = cli("show run | in hostname")
